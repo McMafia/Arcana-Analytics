@@ -2,14 +2,26 @@
 Sentiment Prediction and Co-occurrence of stock market data
 
 
-## Installation 
+### Installation 
 Use the following command to clone the repository
 ```
 git clone https://github.com/McMafia/Arcana-Analytics.git
 ```
 
-## Downloading the correct package versions
+### Downloading the correct package versions
 Use the following command to install the correct package versions after creating a virtual environment
 ```
 pip install -r requirements.txt
 ```
+
+## Usage
+The program is easily executed by running the main.py file from the repository. This file when successfully executed, opens a streamlit webapp. We have used the latest posts available on the website stocktwits.com to predict general sentiment about the stock, and compare it with the actual sentiment we calculated using the tags on each of the available post. The app also provides the user with the information about the co-occurence of a particular chosen stock, with the other stocks present in the dataset.
+
+### Running the program
+To run the program, enter the directory where the repository has been cloned and run the following command.
+```
+streamlit run main.py
+```
+
+
+
